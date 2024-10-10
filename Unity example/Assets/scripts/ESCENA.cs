@@ -4,25 +4,28 @@ using UnityEngine;
 
 public class ESCENA : MonoBehaviour
 {
-    private float tiempo;
+    private float tiempo = 0f; // Inicializa la variable
 
-    private void OnCollisionEnter2D(Collision2D other) {
-        if(other.collider.CompareTag("Player")){
-            Debug.Log("Jugador Entro");
+    // Detecta cuando el jugador entra en colisión con el objeto
+    private void OnCollisionEnter(Collision other) {
+        if (other.collider.CompareTag("Player")) {
+            Debug.Log("Jugador Entró");
         }
     }
- 
- private void OnCollisionStay2D(Collision2D other){
-    if(other.collider.CompareTag("Player")){
-        tiempo += Time.deltaTime;
-        Debug.log("Jugador en choque");
-    }
- }
 
- private void OnCollisionExit2D(Collision2D other){
-    if(other.collider.CompareTag("Player")){
-        Debug.Log("Jugador Salio:" + tiempo);
-        tiempo = 0;
+    // Detecta cuando el jugador sigue en colisión con el objeto
+    private void OnCollisionStay(Collision other) {
+        if (other.collider.CompareTag("Player")) {
+            tiempo += Time.deltaTime; // Suma el tiempo que el jugador permanece en colisión
+            Debug.Log("Jugador en choque");
+        }
     }
- }
+
+    // Detecta cuando el jugador sale de la colisión
+    private void OnCollisionExit(Collision other) {
+        if (other.collider.CompareTag("Player")) {
+            Debug.Log("Jugador Salió después de: " + tiempo + " segundos en colisión");
+            tiempo = 0; // Reinicia el tiempo una vez que el jugador sale
+        }
+    }
 }
