@@ -331,7 +331,6 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
-  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -413,24 +412,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1676346310}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &963194229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6012ee3316cc4db45b390d354069eb3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  offset: {x: 3.16, y: 3.78, z: 6.96}
-  target: {fileID: 1676346310}
-  lerpValue: 0.204
-  sensibilidad: 5
-  minXRotation: -40
-  maxXRotation: 80
 --- !u!1 &1273417426 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9083418802356786223, guid: f37de75e21465ac449e08ecb58099cbf, type: 3}
@@ -493,7 +474,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1676346310}
   - component: {fileID: 1676346307}
-  - component: {fileID: 1676346308}
   - component: {fileID: 1676346309}
   m_Layer: 0
   m_Name: Player
@@ -528,26 +508,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1676346308
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1676346306}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396668bf0dbf89c47963dea889ebfd1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerSpeed: 31.05
-  gravity: 9.8
-  gravityMultiplier: 2
-  jumpForce: 10
-  slideVelocity: 5
-  slopeForceDown: 5
-  slopeSlideThreshold: 45
-  stepHeight: 0.3
 --- !u!114 &1676346309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -658,6 +618,8 @@ GameObject:
   - component: {fileID: 1805478227}
   - component: {fileID: 1805478229}
   - component: {fileID: 1805478228}
+  - component: {fileID: 1805478231}
+  - component: {fileID: 1805478230}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -730,6 +692,47 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1805478226}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1805478230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805478226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b362d7c75ccf32247b518b8936c87378, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 963194228}
+  speed: 4
+  gravity: -9.8
+--- !u!143 &1805478231
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805478226}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1982822540
 PrefabInstance:
   m_ObjectHideFlags: 0
