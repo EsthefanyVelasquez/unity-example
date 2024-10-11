@@ -12,6 +12,9 @@ public class CodigoSalud : MonoBehaviour
     public Image BarraSalud; // Referencia a la barra de salud UI
     public Text TextoSalud; // Referencia al texto de salud UI
 
+    public GameObject Muerto; // Prefab o GameObject a instanciar al morir
+    public GameObject GameOverUI; // Prefab de la interfaz de Game Over
+
     void Update()
     {
         ActualizarInterfaz(); // Actualiza la interfaz de usuario cada frame
@@ -20,9 +23,21 @@ public class CodigoSalud : MonoBehaviour
     public void RecibirDaño(float daño)
     {
         Salud -= daño; // Reduce la salud actual por la cantidad de daño
-        if (Salud < 0) // Asegúrate de que la salud no sea negativa
+        if (Salud <= 0) // Asegúrate de que la salud no sea negativa
         {
-            Salud = 0; // Si la salud es menor que 0, establece a 0
+            Salud = 0; // Asegúrate de que la salud no sea menor que 0
+
+            if (Muerto != null)
+            {
+                Instantiate(Muerto, transform.position, transform.rotation); // Instancia el prefab de muerte
+            }
+
+            if (GameOverUI != null)
+            {
+                Instantiate(GameOverUI, Vector3.zero, Quaternion.identity); // Instancia la interfaz de Game Over en el centro de la pantalla
+            }
+
+            Destroy(gameObject); // Destruye el objeto actual (este GameObject)
         }
     }
 
@@ -41,4 +56,3 @@ public class CodigoSalud : MonoBehaviour
         }
     }
 }
-
