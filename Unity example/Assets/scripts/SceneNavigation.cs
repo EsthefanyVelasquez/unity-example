@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
-public class NewBehaviourScript : MonoBehaviour
+public class SceneNavigation : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -17,6 +18,59 @@ public class NewBehaviourScript : MonoBehaviour
         
     }
 
+    // Referencia a la ventana emergente
+    public GameObject confirmExitPanel;
+    public GameObject configPanel;
+    public GameObject creditsPanel;
+
+    // Método para mostrar el panel de créditos
+    public void ShowCreditsPanel()
+    {
+        creditsPanel.SetActive(true);
+    }
+
+    // Método para ocultar el panel de créditos
+    public void HideCreditsPanel()
+    {
+        creditsPanel.SetActive(false);
+    }
+
+    // Método para mostrar el panel de configuración
+    public void ShowConfigPanel()
+    {
+        configPanel.SetActive(true);
+    }
+
+    // Método para ocultar el panel de configuración
+    public void HideConfigPanel()
+    {
+        configPanel.SetActive(false);
+    }
+
+
+    public SceneNavigation(GameObject confirmExitPanel)
+    {
+        this.confirmExitPanel = confirmExitPanel;
+    }
+
+    // Método para mostrar la ventana emergente de confirmación
+    public void MostrarVentanaEmergente()
+    {
+        confirmExitPanel.SetActive(true);
+    }
+
+    // Método para salir del juego
+    public void SalirDelJuego()
+    {
+        Application.Quit();
+        Debug.Log("Salir del juego"); // Esto solo se verá en el editor.
+    }
+
+    // Método para cancelar la salida
+    public void CancelarSalida()
+    {
+        confirmExitPanel.SetActive(false);
+    }
 
     // Método para cambiar a Pantalla 2
     public void IrAPantalla2()
