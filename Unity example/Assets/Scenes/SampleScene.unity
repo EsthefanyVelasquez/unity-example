@@ -414,7 +414,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -424,8 +424,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -1531,7 +1531,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1541,8 +1541,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -2032,7 +2032,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2042,8 +2042,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -2283,7 +2283,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2293,8 +2293,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -2629,7 +2629,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2639,8 +2639,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -2880,7 +2880,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2890,8 +2890,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -3131,7 +3131,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -3141,8 +3141,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -3442,7 +3442,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -3452,8 +3452,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -3693,7 +3693,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -3703,8 +3703,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -3944,7 +3944,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -3954,8 +3954,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -4195,7 +4195,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -4205,8 +4205,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -4521,7 +4521,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -4531,8 +4531,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -4772,7 +4772,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -4782,8 +4782,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -5143,7 +5143,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -5153,8 +5153,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -5574,7 +5574,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -5584,8 +5584,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -6219,7 +6219,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -6229,8 +6229,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -6545,7 +6545,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -6555,8 +6555,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -6863,7 +6863,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -6873,8 +6873,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -7642,7 +7642,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -7652,8 +7652,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -7893,7 +7893,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -7903,8 +7903,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -8324,7 +8324,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -8334,8 +8334,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -8575,7 +8575,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -8585,8 +8585,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -8886,7 +8886,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -8896,8 +8896,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -9197,7 +9197,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -9207,8 +9207,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -9375,7 +9375,7 @@ Transform:
   m_GameObject: {fileID: 815528475}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: -11.524613, y: -6.242185, z: -49.145023}
+  m_LocalPosition: {x: -11.525, y: -6.242185, z: -50.14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9508,7 +9508,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -9518,8 +9518,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -9759,7 +9759,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -9769,8 +9769,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -10464,7 +10464,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -10474,8 +10474,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -10715,7 +10715,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -10725,8 +10725,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -10966,7 +10966,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -10976,8 +10976,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -11217,7 +11217,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -11227,8 +11227,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -11468,7 +11468,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -11478,8 +11478,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -11719,7 +11719,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -11729,8 +11729,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -12097,7 +12097,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -12107,8 +12107,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -12700,7 +12700,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -12710,8 +12710,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -13200,7 +13200,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -13210,8 +13210,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -13574,7 +13574,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -13584,8 +13584,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -13825,7 +13825,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -13835,8 +13835,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -14076,7 +14076,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -14086,8 +14086,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -14327,7 +14327,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -14337,8 +14337,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -14578,7 +14578,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -14588,8 +14588,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -14889,7 +14889,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -14899,8 +14899,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -15281,7 +15281,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -15291,8 +15291,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -15652,7 +15652,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -15662,8 +15662,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -16419,7 +16419,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -16429,8 +16429,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -16670,7 +16670,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -16680,8 +16680,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -16921,7 +16921,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -16931,8 +16931,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -17276,7 +17276,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -17286,8 +17286,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -17534,7 +17534,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -17544,8 +17544,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 0.24254894
-  MaxDistance: 0.5399742
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -17953,7 +17953,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -17963,8 +17963,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -18204,7 +18204,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -18214,8 +18214,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -18455,7 +18455,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -18465,8 +18465,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -18706,7 +18706,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -18716,8 +18716,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -19017,7 +19017,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -19027,8 +19027,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -19268,7 +19268,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -19278,8 +19278,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -19519,7 +19519,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -19529,8 +19529,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -20284,7 +20284,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -20294,8 +20294,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -20535,7 +20535,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -20545,8 +20545,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -20786,7 +20786,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -20796,8 +20796,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -21084,7 +21084,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -21094,8 +21094,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -21529,7 +21529,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -21539,8 +21539,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -21780,7 +21780,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -21790,8 +21790,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -22246,7 +22246,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -22256,8 +22256,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -22497,7 +22497,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -22507,8 +22507,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -22748,7 +22748,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -22758,8 +22758,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -22999,7 +22999,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -23009,8 +23009,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -23377,7 +23377,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -23387,8 +23387,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -24093,7 +24093,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -24103,8 +24103,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -24344,7 +24344,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -24354,8 +24354,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -24799,7 +24799,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -24809,8 +24809,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -25050,7 +25050,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -25060,8 +25060,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -25361,7 +25361,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -25371,8 +25371,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -25612,7 +25612,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -25622,8 +25622,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -25863,7 +25863,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eb620677c3480694c9acb94f53c7efd3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc332c70eae8f444c9a76202be8ed8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -25873,8 +25873,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 0.69
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
