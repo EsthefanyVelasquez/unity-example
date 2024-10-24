@@ -51,7 +51,7 @@ public class PauseMenuController : MonoBehaviour
 
     public void OpenSettings()
     {
-        Debug.Log("Abrir Configuración");
+        Debug.Log("Abrir Configuraciï¿½n");
     }
 
     public void QuitGame()
