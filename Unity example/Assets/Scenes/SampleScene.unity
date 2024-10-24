@@ -10925,6 +10925,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
+  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -10999,7 +11000,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.26900393, y: 0.012036305, z: -0.0033620126, w: 0.96305805}
+  m_LocalRotation: {x: 0.2690039, y: 0.012036327, z: -0.0033620186, w: 0.96305805}
   m_LocalPosition: {x: 0.885, y: -0.30200005, z: -0.5600004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -11040,6 +11041,15 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!45 &963194230
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: 2d796ced94d61438fbab81b194038162, type: 2}
 --- !u!1 &964395191
 GameObject:
   m_ObjectHideFlags: 0
@@ -15175,7 +15185,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1335382042}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2690039, y: 0.012036303, z: -0.0033620116, w: 0.96305805}
+  m_LocalRotation: {x: 0.2690039, y: 0.012036325, z: -0.0033620177, w: 0.96305805}
   m_LocalPosition: {x: 3.825, y: 0.798, z: 5.7499995}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -34479,13 +34489,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1308608319934947985}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.9010565, y: -0.01223611, z: 1.3061619}
+  m_LocalRotation: {x: -0.000000014901158, y: 0.000000029802315, z: 0.37833527, w: 0.9256686}
+  m_LocalPosition: {x: 2.52, y: 0.38, z: 1.31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5224694813808701068}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 44.461}
 --- !u!4 &1859071216270807057
 Transform:
   m_ObjectHideFlags: 0
