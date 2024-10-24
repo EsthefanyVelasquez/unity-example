@@ -243,7 +243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 967bb89d109fbb74b859bbaa042abf99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "CantidadDa\xF1o": 100
+  "CantidadDa\xF1o": 50
 --- !u!1 &28204152
 GameObject:
   m_ObjectHideFlags: 0
@@ -5056,7 +5056,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 967bb89d109fbb74b859bbaa042abf99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "CantidadDa\xF1o": 100
+  "CantidadDa\xF1o": 50
 --- !u!1 &481027454
 GameObject:
   m_ObjectHideFlags: 0
@@ -5834,7 +5834,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 967bb89d109fbb74b859bbaa042abf99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "CantidadDa\xF1o": 100
+  "CantidadDa\xF1o": 50
 --- !u!1 &545752482
 GameObject:
   m_ObjectHideFlags: 0
@@ -8974,6 +8974,7 @@ GameObject:
   - component: {fileID: 821789164}
   - component: {fileID: 821789165}
   - component: {fileID: 821789166}
+  - component: {fileID: 821789167}
   m_Layer: 0
   m_Name: cuadra 1
   m_TagString: Untagged
@@ -9015,8 +9016,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 20.95, y: 6.54, z: 3.54}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 22.11834, y: 6.54, z: 4.4911313}
+  m_Center: {x: -0.07583046, y: 0, z: 0.015565634}
 --- !u!114 &821789166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9029,7 +9030,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 967bb89d109fbb74b859bbaa042abf99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "CantidadDa\xF1o": 100
+  "CantidadDa\xF1o": 50
+--- !u!65 &821789167
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 821789163}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 21.366238, y: 6.99, z: 4.1110272}
+  m_Center: {x: -0.17188072, y: 0, z: -0.044486284}
 --- !u!1 &826250494
 GameObject:
   m_ObjectHideFlags: 0
@@ -11499,7 +11521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 967bb89d109fbb74b859bbaa042abf99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "CantidadDa\xF1o": 100
+  "CantidadDa\xF1o": 50
 --- !u!1 &1034836822
 GameObject:
   m_ObjectHideFlags: 0
@@ -12483,6 +12505,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 821789164}
+  - {fileID: 1101194045}
   - {fileID: 1024958678}
   - {fileID: 1945337415}
   - {fileID: 1790601149}
@@ -12507,6 +12530,95 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   "CantidadDa\xF1o": 100
+--- !u!1 &1101194044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1101194045}
+  - component: {fileID: 1101194048}
+  - component: {fileID: 1101194047}
+  - component: {fileID: 1101194046}
+  m_Layer: 0
+  m_Name: cuadra 1 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1101194045
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101194044}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.2, y: 0.27, z: -6.17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1069832708}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1101194046
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101194044}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.9263115, y: 6.99, z: 4.8606987}
+  m_Center: {x: 21.436846, y: 0, z: -0.23564911}
+--- !u!114 &1101194047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101194044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 967bb89d109fbb74b859bbaa042abf99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "CantidadDa\xF1o": 50
+--- !u!65 &1101194048
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101194044}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.580416, y: 6.54, z: 5.2146144}
+  m_Center: {x: 19.449795, y: 0, z: -0.3333528}
 --- !u!1 &1120661767
 GameObject:
   m_ObjectHideFlags: 0
@@ -21124,7 +21236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 967bb89d109fbb74b859bbaa042abf99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "CantidadDa\xF1o": 100
+  "CantidadDa\xF1o": 50
 --- !u!1 &1805478226
 GameObject:
   m_ObjectHideFlags: 0
@@ -22456,7 +22568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 967bb89d109fbb74b859bbaa042abf99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "CantidadDa\xF1o": 100
+  "CantidadDa\xF1o": 50
 --- !u!65 &1891310455
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23093,7 +23205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 967bb89d109fbb74b859bbaa042abf99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "CantidadDa\xF1o": 100
+  "CantidadDa\xF1o": 50
 --- !u!1 &1955665126
 GameObject:
   m_ObjectHideFlags: 0
@@ -23139,7 +23251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 967bb89d109fbb74b859bbaa042abf99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "CantidadDa\xF1o": 100
+  "CantidadDa\xF1o": 50
 --- !u!65 &1955665129
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23227,7 +23339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 967bb89d109fbb74b859bbaa042abf99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "CantidadDa\xF1o": 100
+  "CantidadDa\xF1o": 50
 --- !u!65 &1966365752
 BoxCollider:
   m_ObjectHideFlags: 0
