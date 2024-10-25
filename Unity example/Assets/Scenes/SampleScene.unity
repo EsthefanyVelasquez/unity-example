@@ -20708,7 +20708,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 71c29cc7d8be5f9419c4dafb4b38c5ea, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 45a0962c13e9c7d4f9a60ef65fcb668e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -22263,6 +22263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camera: {fileID: 963194228}
   speed: 2
+  brakeSpeed: 1.5
   gravity: -9.8
   rotationSpeed: 100
   jumpHeight: 2
