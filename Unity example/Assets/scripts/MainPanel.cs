@@ -13,13 +13,15 @@ public class MainPanel : MonoBehaviour
  [Header("Panels")]
  public GameObject mainPanel;
  public GameObject optionsPanel;
- public GameObject levelSelectPanel;
+ public GameObject SelectPerson;
+ public GameObject SelectColor;
 
  public void OpenPanel( GameObject panel)
  {
     mainPanel.SetActive(false);
     optionsPanel.SetActive(false);
-    levelSelectPanel.SetActive(false);
+    SelectPerson.SetActive(false);
+    SelectColor.SetActive(false);
 
     panel.SetActive(true);
  }
