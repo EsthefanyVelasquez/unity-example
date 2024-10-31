@@ -16,12 +16,16 @@ public class MainPanel : MonoBehaviour
  public GameObject SelectPerson;
  public GameObject SelectColor;
 
+ public void PlayLevel(string levelName)
+ {
+    SceneManager.LoadScene(levelName);
+ }
+
  public void OpenPanel( GameObject panel)
  {
     mainPanel.SetActive(false);
     optionsPanel.SetActive(false);
     SelectPerson.SetActive(false);
-    SelectColor.SetActive(false);
 
     panel.SetActive(true);
  }
