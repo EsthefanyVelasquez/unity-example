@@ -26,6 +26,7 @@ public class MainPanel : MonoBehaviour
     mainPanel.SetActive(false);
     optionsPanel.SetActive(false);
     SelectPerson.SetActive(false);
+    SelectColor.SetActive(false);
 
     panel.SetActive(true);
  }
