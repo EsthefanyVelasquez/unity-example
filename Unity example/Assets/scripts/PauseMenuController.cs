@@ -1,10 +1,11 @@
 using UnityEngine;
 
-public class PauseMenuController : MonoBehaviour
+public class GameController : MonoBehaviour
 {
-    public static PauseMenuController instance;
-    public GameObject pauseMenu;
+    public static GameController instance;
 
+    public GameObject pauseMenu;
+    public GameObject victoryMenu; // Nuevo: Panel para el mensaje de victoria
     private bool isPaused = false;
 
     private void Awake()
@@ -12,7 +13,7 @@ public class PauseMenuController : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject); // Esto hace que el objeto persista entre escenas
+            DontDestroyOnLoad(gameObject); // Hace que el objeto persista entre escenas
         }
         else
         {
@@ -61,5 +62,13 @@ public class PauseMenuController : MonoBehaviour
 #else
         Application.Quit();
 #endif
+    }
+
+    // Nuevo: Método para activar el menú de victoria
+    public void ShowVictoryMenu()
+    {
+        victoryMenu.SetActive(true);
+        Time.timeScale = 0f; // Pausa el juego al ganar
+        Debug.Log("¡Has ganado!");
     }
 }
