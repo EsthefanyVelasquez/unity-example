@@ -585,7 +585,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 474031133}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1958325647}
+        m_TargetAssemblyTypeName: MainPanel, Assembly-CSharp
+        m_MethodName: OpenPanel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1063465957}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &474031133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1282,7 +1294,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 983289967}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1958325647}
+        m_TargetAssemblyTypeName: MainPanel, Assembly-CSharp
+        m_MethodName: OpenPanel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1381868556}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &983289967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1834,7 +1858,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 75.950035, y: -96.74001}
+  m_AnchoredPosition: {x: 55.950035, y: -92.24001}
   m_SizeDelta: {x: 71.2, y: 23.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1392207181
@@ -1880,7 +1904,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1392207182}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1958325647}
+        m_TargetAssemblyTypeName: MainPanel, Assembly-CSharp
+        m_MethodName: OpenPanel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2092825555}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1392207182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2036,7 +2072,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 75.950035, y: -181.73003}
+  m_AnchoredPosition: {x: 55.95002, y: -172.73001}
   m_SizeDelta: {x: 71.2, y: 23.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1556510190
@@ -2082,7 +2118,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1556510191}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1958325647}
+        m_TargetAssemblyTypeName: MainPanel, Assembly-CSharp
+        m_MethodName: OpenPanel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2092825555}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1556510191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2661,6 +2709,7 @@ GameObject:
   - component: {fileID: 1958325645}
   - component: {fileID: 1958325644}
   - component: {fileID: 1958325643}
+  - component: {fileID: 1958325647}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2754,6 +2803,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1958325647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958325642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645176dbc83d42c43a7cbec5b0a593b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeFX: {fileID: 1697370353}
+  volumeMaster: {fileID: 1021294023}
+  mute: {fileID: 408711921}
+  mainPanel: {fileID: 2092825555}
+  optionsPanel: {fileID: 1063465957}
+  levelSelectPanel: {fileID: 1381868556}
 --- !u!1 &2040359004
 GameObject:
   m_ObjectHideFlags: 0
