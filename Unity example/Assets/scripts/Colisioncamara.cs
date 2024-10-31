@@ -14,13 +14,26 @@ public class CameraCollision : MonoBehaviour
 
     void Start()
     {
-        // Calcular el offset inicial entre el jugador y la cámara
-        _defaultOffset = transform.position - target.position;
-        _currentDistance = _defaultOffset.magnitude;
+        if (target != null)
+        {
+            // Calcular el offset inicial entre el jugador y la cámara
+            _defaultOffset = transform.position - target.position;
+            _currentDistance = _defaultOffset.magnitude;
+        }
+        else
+        {
+            Debug.LogWarning("El objeto 'target' no está asignado en el script CameraCollision.");
+        }
     }
 
     void LateUpdate()
     {
+        if (target == null)
+        {
+            Debug.LogWarning("El objeto 'target' ha sido destruido o no está asignado.");
+            return; // Salimos de la función si el target es nulo
+        }
+
         // Dirección desde el jugador hacia la cámara
         Vector3 direction = _defaultOffset.normalized;
         RaycastHit hit;
