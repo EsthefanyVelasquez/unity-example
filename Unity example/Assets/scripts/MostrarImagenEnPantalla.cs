@@ -3,38 +3,38 @@ using UnityEngine.UI;
 
 public class MostrarImagenEnPantalla : MonoBehaviour
 {
-    public Image imagenUI;  // Referencia al componente Image de la UI
+    public Image imagenUI1; // Primera imagen de la UI
+    public Image imagenUI2; // Segunda imagen de la UI (opcional)
+    public Image imagenUI3; // Tercera imagen de la UI (opcional)
     public string tagJugador = "Player"; // Tag del objeto del jugador
 
     private void Start()
     {
-        // Oculta la imagen al inicio
-        if (imagenUI != null)
-        {
-            imagenUI.enabled = false;
-        }
-        else
-        {
-            Debug.LogWarning("No se ha asignado el campo 'imagenUI'. Por favor, asigna un componente Image en el Inspector.");
-        }
+        // Ocultar todas las imágenes al inicio
+        if (imagenUI1 != null) imagenUI1.enabled = false;
+        if (imagenUI2 != null) imagenUI2.enabled = false;
+        if (imagenUI3 != null) imagenUI3.enabled = false;
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        // Si el jugador entra en el collider, mostrar la imagen
-        if (other.CompareTag(tagJugador) && imagenUI != null)
+        // Mostrar las imágenes cuando el jugador entre en el collider
+        if (other.CompareTag(tagJugador))
         {
-            imagenUI.enabled = true;
+            if (imagenUI1 != null) imagenUI1.enabled = true;
+            if (imagenUI2 != null) imagenUI2.enabled = true;
+            if (imagenUI3 != null) imagenUI3.enabled = true;
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        // Si el jugador sale del collider, ocultar la imagen
-        if (other.CompareTag(tagJugador) && imagenUI != null)
+        // Ocultar las imágenes cuando el jugador salga del collider
+        if (other.CompareTag(tagJugador))
         {
-            imagenUI.enabled = false;
+            if (imagenUI1 != null) imagenUI1.enabled = false;
+            if (imagenUI2 != null) imagenUI2.enabled = false;
+            if (imagenUI3 != null) imagenUI3.enabled = false;
         }
     }
 }
-
