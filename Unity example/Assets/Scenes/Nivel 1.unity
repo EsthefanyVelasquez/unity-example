@@ -29081,7 +29081,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8501cabc5139c8d4dabefb380e9bd6bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRemaining: 5
+  timeRemaining: 7
   timerText: {fileID: 473298979}
 --- !u!64 &991494850
 MeshCollider:

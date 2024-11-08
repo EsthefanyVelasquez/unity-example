@@ -9,6 +9,9 @@ public class CountdownTimer : MonoBehaviour
 
     private bool timerIsRunning = false;
 
+    public GameObject Muerto; // Prefab o GameObject a instanciar al morir
+    public GameObject GameOverUI; // Prefab de la interfaz de Game Over
+
     private void Start()
     {
         // Iniciar el temporizador cuando comience el nivel
@@ -52,6 +55,16 @@ public class CountdownTimer : MonoBehaviour
     {
         // Cargar la pantalla de muerte al finalizar el tiempo
         Time.timeScale = 1f;  // Restablece la escala de tiempo
-        SceneManager.LoadScene(3); // Asegúrate de que la escena "DeathScreen" esté en Build Settings
+
+        if (Muerto != null)
+        {
+            Instantiate(Muerto, transform.position, transform.rotation); // Instancia el prefab de muerte
+        }
+
+        if (GameOverUI != null)
+        {
+            Instantiate(GameOverUI, Vector3.zero, Quaternion.identity); // Instancia la interfaz de Game Over en el centro de la pantalla
+        }
+       
     }
 }
