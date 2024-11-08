@@ -2712,13 +2712,42 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0fc490a9a1453d941a43ddc418356d55, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2035195585}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0fc490a9a1453d941a43ddc418356d55, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 72703604}
   m_SourcePrefab: {fileID: 100100000, guid: 0fc490a9a1453d941a43ddc418356d55, type: 3}
 --- !u!4 &72703602 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0fc490a9a1453d941a43ddc418356d55, type: 3}
   m_PrefabInstance: {fileID: 72703601}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &72703603 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0fc490a9a1453d941a43ddc418356d55, type: 3}
+  m_PrefabInstance: {fileID: 72703601}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &72703604
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72703603}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c7d24aea8ae6d134ebedcb264dec5275, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &80057784
 GameObject:
   m_ObjectHideFlags: 0
@@ -62088,6 +62117,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: boyL
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 5d89623bfab9dfd458da93e27c18fe8f, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 62e516850c17c8b40b86d3685d2dc97c, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -65618,6 +65651,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: girlL
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5be978596ab74cd44b0ce27222c66786, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 5be978596ab74cd44b0ce27222c66786, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 44a2acbe237cbc94ea0ff27547c86343, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
