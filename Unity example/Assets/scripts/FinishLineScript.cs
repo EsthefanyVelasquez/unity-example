@@ -10,7 +10,7 @@ public class FinishLineScript : MonoBehaviour
 
     private bool playerReachedFinish = false;
     private float timer = 0f;
-    private float waitTime = 3f;       // Tiempo de espera en segundos
+    private float waitTime = 2f;       // Tiempo de espera en segundos
 
     private void Start()
     {
