@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TriggerColliderActivator : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class TriggerColliderActivator : MonoBehaviour
         {
             colliderToActivate.enabled = false;
         }
+
+        // Suscribirse al evento de carga de escena
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -22,4 +26,21 @@ public class TriggerColliderActivator : MonoBehaviour
             Debug.Log("Collider activado permanentemente.");
         }
     }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // Desactivar el collider cuando se recargue la escena
+        if (colliderToActivate != null)
+        {
+            colliderToActivate.enabled = false;
+            Debug.Log("Collider reiniciado al cargar la escena.");
+        }
+    }
+
+    private void OnDestroy()
+    {
+        // Desuscribirse del evento para evitar errores
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
 }
+
